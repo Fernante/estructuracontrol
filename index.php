@@ -31,6 +31,18 @@ if ($num > 0) {
 }else {
   echo "<p>El número es cero</p>";
 }
-
+// Sentencia Switch
+echo "<h3>Ejecutando la sentencia Switch:</h3>";
+switch ($num) {
+  case 0:
+    echo "<p>El número es cero</p>";
+  case 1:
+    echo "<p>El número es uno</p>";
+    case 2:
+    echo "<p>El número es dos</p>";
+    default:
+      echo "<p>El número es cero, ni uno, ni dos</p>";
+      break; 
+    }
 echo"</body></html>";
 ?>
