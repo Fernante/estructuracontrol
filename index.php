@@ -22,6 +22,15 @@ if ($num >= 0) {
 }else {
   echo "<p>El número es negativo</p>";
 }
+// Sentencia if-elseif-else
+echo "<h3>Ejecutando la sentencia if-elseif-else:</h3>";
+if ($num > 0) { 
+  echo "<p>El número es positivo</p>";
+}elseif ($num == 0) {
+  echo "<p>El número es negativo</p>";
+}else {
+  echo "<p>El número es cero</p>";
+}
 
 echo"</body></html>";
 ?>
