@@ -36,10 +36,13 @@ echo "<h3>Ejecutando la sentencia Switch:</h3>";
 switch ($num) {
   case 0:
     echo "<p>El número es cero</p>";
+    break;
   case 1:
     echo "<p>El número es uno</p>";
+    break;
     case 2:
     echo "<p>El número es dos</p>";
+    break;
     default:
       echo "<p>El número es cero, ni uno, ni dos</p>";
       break; 
